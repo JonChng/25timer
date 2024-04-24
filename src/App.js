@@ -3,16 +3,13 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App w-full h-screen flex justify-center items-center">
-      <div id="header" className='w-1/2 h-1/2 flex flex-col justify-center border-4 border-black'>
-        <div className="w-full h-1/6 text-center pt-5">
-          <h1 className="text-5xl text-white text-center">25+5 Clock</h1>
+    <div className="App w-full min-h-screen flex justify-center items-center">
+      <div id="header" className='w-3/4 h-3/4 flex flex-col justify-center items-center'>
+        <div className="w-full h-1/5 text-center">
+          <h1 className="text-5xl text-white mb-4 sm:mb-8 md:mb-12 lg:mb-16">25+5 Clock</h1>
         </div>
-        <Data /> 
-       
+        <Data />
       </div>
-      
-
     </div>
   );
 }
