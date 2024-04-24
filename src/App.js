@@ -22,8 +22,8 @@ function Data() {
   
   const src = "https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav" 
   const audio = new Audio(src);
-  const [breakLength, setBreakLength] = useState(0.25);
-  const [sessionLength, setSessionLength] = useState(0.25);
+  const [breakLength, setBreakLength] = useState(5);
+  const [sessionLength, setSessionLength] = useState(25);
   const [timer, setTimer] = useState(1500);
   const [isRunning, setIsRunning] = useState(false);
   const [isBreak, setIsBreak] = useState(false);
